@@ -8,7 +8,7 @@ on:
         - created
     workflow_dispatch:
   
-  jobs:    
+jobs:    
     build-linux:
       runs-on: ubuntu-latest
       steps:
@@ -34,4 +34,3 @@ on:
           with:
             name: output
             path: output
-            
